@@ -1,4 +1,8 @@
 # ESP32CAM_MQTT-Basic
+
+> Editado por: **Brenda Gómez** 
+ Agosto 09,2022
+
 Este repositorio contiene el programa básico para conectar el ESP32CAM a MQTT, enviar y recibir mensajes.
 
 Puedes encontrar el curso correspondiente a este ejercicio en el siguiente enlace.
@@ -50,6 +54,6 @@ Para observar el funcionamiento de este proyecto deberás realizar lo siguiente.
 
 ![](https://github.com/codigo-iot/ESP32CAM_MQTT-Basic/blob/main/esp32camMQTTbasic.jpg)
 
-Podrás observar una cuenta progresiva, la cual envía el prográma base del ESP32CAM. Puedes controlar el led flash del ESP32CAM con el switch del dashboard.
+Podrás observar una cuenta progresiva, la cual envía el programa base del ESP32CAM. Puedes controlar el led flash del ESP32CAM con el switch del dashboard.
 
-Por: [Hugo Vargas](https://github.com/hugoescalpelo)
+Por: [Brenda Gómez ](https://github.com/bagx)
