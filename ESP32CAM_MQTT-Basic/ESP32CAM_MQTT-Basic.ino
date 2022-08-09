@@ -1,7 +1,8 @@
 /*
  * Conexión básica por MQTT del NodeMCU
  * por: Hugo Escalpelo
- * Fecha: 28 de julio de 2021
+ * Modificadc por: Brenda Gómez
+ * Fecha: Agosto 9 de 2022
  * 
  * Este programa envía datos  por Internet a través del protocolo MQTT. Para poder
  * comprobar el funcionamiento de este programa, es necesario conectarse a un broker
@@ -18,11 +19,11 @@
 #include <PubSubClient.h> //Biblioteca para conexion MQTT
 
 //Datos de WiFi
-const char* ssid = "AXTEL XTREMO-18D6";  // Aquí debes poner el nombre de tu red
-const char* password = "038C18D6";  // Aquí debes poner la contraseña de tu red
+const char* ssid = "Totalplay-F8A3";  // Aquí debes poner el nombre de tu red
+const char* password = "F8A315174f7TWvZr";  // Aquí debes poner la contraseña de tu red
 
 //Datos del broker MQTT
-const char* mqtt_server = "192.168.15.33"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
+const char* mqtt_server = "192.168.100.69"; // Si estas en una red local, coloca la IP asignada, en caso contrario, coloca la IP publica
 IPAddress server(192,168,15,33);
 
 // Objetos
